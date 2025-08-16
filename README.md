@@ -12,13 +12,13 @@ adb install /tmp/hill.apk
 ```
 2)ludo offline by Touchzing Media Private Limited
 ```
-wget https://raw.githubusercontent.com/revie-cpu/android-games-for-emulator/main/ludo-offline.sh -O ludo-offline.sh
-chmod +x ludo-offline.sh
-./ludo-offline.sh
+wget https://raw.githubusercontent.com/revie-cpu/android-games-for-emulator/main/mini-militia.sh -O mini-militiae.sh
+chmod +x mini-militia.sh
+./mini-militia.sh
 ```
 then do
 ```
-adb install /tmp/ludo.apk
+adb install /tmp/mini-militia.apk
 ```
 3) fruit ninja by Halfbrick studios
 ```
