@@ -19,6 +19,8 @@ CONTAINER_NAME="codespaces-blank-android-1"
 CONTAINER_IP=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $CONTAINER_NAME)
 
 # Step 4: Restart adb and connect
+ docker exec -it codespaces-blank-android-1 bash
+cat /proc/cpuinfo | grep vmx
 adb kill-server
 adb start-server
 adb disconnect $CONTAINER_IP:5555
